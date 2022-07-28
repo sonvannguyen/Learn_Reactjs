@@ -1,0 +1,32 @@
+
+.product__item {
+    text-align: center;
+    padding-bottom: 20px;
+    transition: all 0.2s linear;
+    margin-bottom: 24px;
+    &__img {
+        width: 100%;
+    }
+    .product__item__info {
+        margin-bottom: 10px;
+        &__title {
+            font-size: 14px;
+            opacity: 0.6;
+            margin: 20px 0 8px 0px;
+        }
+        &__price {
+            font-weight: 600;
+            font-size: 16px;
+            &__old {
+                font-weight: 100;
+                opacity: 0.6;
+                margin-left: 10px;
+                font-style: italic;
+            }
+        }
+    }
+    &:hover {
+         box-shadow: $box-shadow;
+
+    }
+}
